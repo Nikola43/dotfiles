@@ -51,6 +51,7 @@ if [ ! -f ~/.local/share/fonts/PowerlineSymbols.otf ] || [ ! -f ~/.config/fontco
     wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
     wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
     check_step # 7
+    mkdir  ~/.local/share/fonts/
     mv PowerlineSymbols.otf ~/.local/share/fonts/
     mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
     check_step # 8
